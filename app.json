@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "I-Speak",
+    "slug": "i-speak",
+    "version": "0.1.0",
+    "scheme": "ispeak",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router", "expo-sqlite", "expo-notifications"],
+    "experiments": { "typedRoutes": false },
+    "android": {
+      "package": "fr.ispeak.app",
+      "versionCode": 1,
+      "permissions": ["POST_NOTIFICATIONS"]
+    }
+  }
+}
