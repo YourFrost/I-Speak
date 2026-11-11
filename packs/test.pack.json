@@ -1,0 +1,436 @@
+{
+  "formatVersion": 1,
+  "packVersion": "0.0.1-test",
+  "meta": {
+    "lang": "it",
+    "name": "Italien (pack de test)",
+    "nativeName": "Italiano",
+    "ttsLocale": "it-IT",
+    "script": "latin",
+    "sourceLang": "fr",
+    "attributions": [
+      {
+        "source": "Texte écrit à la main pour les tests",
+        "license": "CC0"
+      }
+    ]
+  },
+  "themes": [
+    {
+      "id": "base",
+      "label": "Bases"
+    },
+    {
+      "id": "voyage",
+      "label": "Voyage"
+    },
+    {
+      "id": "restaurant",
+      "label": "Restaurant"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "lemma": "ciao",
+      "rank": 1,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "salut"
+    },
+    {
+      "id": "w2",
+      "lemma": "grazie",
+      "rank": 2,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "merci"
+    },
+    {
+      "id": "w3",
+      "lemma": "io",
+      "rank": 3,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "je"
+    },
+    {
+      "id": "w4",
+      "lemma": "essere",
+      "rank": 4,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "être"
+    },
+    {
+      "id": "w5",
+      "lemma": "qui",
+      "rank": 5,
+      "themes": ["voyage"],
+      "level": "A1",
+      "gloss": "ici"
+    },
+    {
+      "id": "w6",
+      "lemma": "dove",
+      "rank": 6,
+      "themes": ["voyage"],
+      "level": "A1",
+      "gloss": "où"
+    },
+    {
+      "id": "w7",
+      "lemma": "il",
+      "rank": 7,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "le / la"
+    },
+    {
+      "id": "w8",
+      "lemma": "bagno",
+      "rank": 8,
+      "themes": ["voyage"],
+      "level": "A1",
+      "gloss": "toilettes, salle de bain"
+    },
+    {
+      "id": "w9",
+      "lemma": "volere",
+      "rank": 9,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "vouloir"
+    },
+    {
+      "id": "w10",
+      "lemma": "un",
+      "rank": 10,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "un"
+    },
+    {
+      "id": "w11",
+      "lemma": "caffè",
+      "rank": 11,
+      "themes": ["restaurant"],
+      "level": "A1",
+      "gloss": "café"
+    },
+    {
+      "id": "w12",
+      "lemma": "mangiare",
+      "rank": 12,
+      "themes": ["restaurant"],
+      "level": "A1",
+      "gloss": "manger"
+    },
+    {
+      "id": "w13",
+      "lemma": "bere",
+      "rank": 13,
+      "themes": ["restaurant"],
+      "level": "A1",
+      "gloss": "boire"
+    },
+    {
+      "id": "w14",
+      "lemma": "acqua",
+      "rank": 14,
+      "themes": ["restaurant"],
+      "level": "A1",
+      "gloss": "eau"
+    },
+    {
+      "id": "w15",
+      "lemma": "non",
+      "rank": 15,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "ne… pas"
+    },
+    {
+      "id": "w16",
+      "lemma": "stanco",
+      "rank": 16,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "fatigué"
+    },
+    {
+      "id": "w17",
+      "lemma": "tu",
+      "rank": 17,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "tu"
+    },
+    {
+      "id": "w18",
+      "lemma": "stare",
+      "rank": 18,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "aller (santé), rester"
+    },
+    {
+      "id": "w19",
+      "lemma": "bene",
+      "rank": 19,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "bien"
+    },
+    {
+      "id": "w20",
+      "lemma": "buono",
+      "rank": 20,
+      "themes": ["restaurant"],
+      "level": "A1",
+      "gloss": "bon"
+    },
+    {
+      "id": "w21",
+      "lemma": "pizza",
+      "rank": 21,
+      "themes": ["restaurant"],
+      "level": "A1",
+      "gloss": "pizza"
+    },
+    {
+      "id": "w22",
+      "lemma": "casa",
+      "rank": 22,
+      "themes": ["voyage"],
+      "level": "A1",
+      "gloss": "maison"
+    },
+    {
+      "id": "w23",
+      "lemma": "come",
+      "rank": 23,
+      "themes": ["base"],
+      "level": "A1",
+      "gloss": "comment"
+    },
+    {
+      "id": "w24",
+      "lemma": "favore",
+      "rank": 24,
+      "themes": ["restaurant"],
+      "level": "A1",
+      "gloss": "faveur (« per favore » : s’il vous plaît)"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Ciao!",
+      "fr": "Salut !",
+      "wordIds": ["w1"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s2",
+      "text": "Grazie.",
+      "fr": "Merci.",
+      "wordIds": ["w2"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s3",
+      "text": "Io sono qui.",
+      "fr": "Je suis ici.",
+      "wordIds": ["w3", "w4", "w5"],
+      "level": "A1",
+      "themes": ["voyage"]
+    },
+    {
+      "id": "s4",
+      "text": "Dove sei?",
+      "fr": "Où es-tu ?",
+      "wordIds": ["w6", "w4"],
+      "level": "A1",
+      "themes": ["voyage"]
+    },
+    {
+      "id": "s5",
+      "text": "Dov’è il bagno?",
+      "fr": "Où sont les toilettes ?",
+      "wordIds": ["w6", "w4", "w7", "w8"],
+      "level": "A1",
+      "themes": ["voyage"]
+    },
+    {
+      "id": "s6",
+      "text": "Voglio un caffè.",
+      "fr": "Je veux un café.",
+      "wordIds": ["w9", "w10", "w11"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s7",
+      "text": "Vuoi un caffè?",
+      "fr": "Tu veux un café ?",
+      "wordIds": ["w9", "w10", "w11"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s8",
+      "text": "Voglio mangiare.",
+      "fr": "Je veux manger.",
+      "wordIds": ["w9", "w12"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s9",
+      "text": "Voglio bere l’acqua.",
+      "fr": "Je veux boire l’eau.",
+      "wordIds": ["w9", "w13", "w7", "w14"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s10",
+      "text": "Io non sono stanco.",
+      "fr": "Je ne suis pas fatigué.",
+      "wordIds": ["w3", "w15", "w4", "w16"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s11",
+      "text": "Tu sei stanco?",
+      "fr": "Tu es fatigué ?",
+      "wordIds": ["w17", "w4", "w16"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s12",
+      "text": "Io sto bene.",
+      "fr": "Je vais bien.",
+      "wordIds": ["w3", "w18", "w19"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s13",
+      "text": "Il caffè è buono.",
+      "fr": "Le café est bon.",
+      "wordIds": ["w7", "w11", "w4", "w20"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s14",
+      "text": "La pizza è buona.",
+      "fr": "La pizza est bonne.",
+      "wordIds": ["w7", "w21", "w4", "w20"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s15",
+      "text": "Non voglio il caffè.",
+      "fr": "Je ne veux pas le café.",
+      "wordIds": ["w15", "w9", "w7", "w11"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s16",
+      "text": "Voglio mangiare la pizza.",
+      "fr": "Je veux manger la pizza.",
+      "wordIds": ["w9", "w12", "w7", "w21"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s17",
+      "text": "Dov’è la casa?",
+      "fr": "Où est la maison ?",
+      "wordIds": ["w6", "w4", "w7", "w22"],
+      "level": "A1",
+      "themes": ["voyage"]
+    },
+    {
+      "id": "s18",
+      "text": "La casa è qui.",
+      "fr": "La maison est ici.",
+      "wordIds": ["w7", "w22", "w4", "w5"],
+      "level": "A1",
+      "themes": ["voyage"]
+    },
+    {
+      "id": "s19",
+      "text": "Io sto bene, grazie.",
+      "fr": "Je vais bien, merci.",
+      "wordIds": ["w3", "w18", "w19", "w2"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s20",
+      "text": "Tu non stai bene?",
+      "fr": "Tu ne vas pas bien ?",
+      "wordIds": ["w17", "w15", "w18", "w19"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s21",
+      "text": "Ciao, come stai?",
+      "fr": "Salut, comment vas-tu ?",
+      "wordIds": ["w1", "w23", "w18"],
+      "level": "A1",
+      "themes": ["base"]
+    },
+    {
+      "id": "s22",
+      "text": "L’acqua è buona.",
+      "fr": "L’eau est bonne.",
+      "wordIds": ["w7", "w14", "w4", "w20"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s23",
+      "text": "Voglio un caffè, per favore.",
+      "fr": "Je veux un café, s’il vous plaît.",
+      "wordIds": ["w9", "w10", "w11", "w24"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s24",
+      "text": "Dov’è l’acqua?",
+      "fr": "Où est l’eau ?",
+      "wordIds": ["w6", "w4", "w7", "w14"],
+      "level": "A1",
+      "themes": ["voyage"]
+    },
+    {
+      "id": "s25",
+      "text": "Vuoi mangiare?",
+      "fr": "Tu veux manger ?",
+      "wordIds": ["w9", "w12"],
+      "level": "A1",
+      "themes": ["restaurant"]
+    },
+    {
+      "id": "s26",
+      "text": "Il bagno è qui.",
+      "fr": "Les toilettes sont ici.",
+      "wordIds": ["w7", "w8", "w4", "w5"],
+      "level": "A1",
+      "themes": ["voyage"]
+    }
+  ]
+}
